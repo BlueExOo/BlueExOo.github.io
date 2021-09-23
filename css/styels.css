@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+/* Style the header */
+.header{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: fantasy, cursive, sans-serif;
+}
+.header h1{
+    font-size: 25px;
+    padding: 10px;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav li{
+  font-size: 20px;
+  display: inline;
+  line-height: 40px;
+}
